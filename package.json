@@ -1,0 +1,17 @@
+{
+  "name": "tkatranslate",
+  "version": "1.0.0",
+  "description": "Scrapes lnmtl.com's copies of The King's Avatar and retranslates it using the Google Translate API.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Qi",
+  "license": "MIT",
+  "dependencies": {
+    "google-translate": "^2.2.0",
+    "jsdom": "^11.11.0",
+    "robots-txt-parser": "^1.0.1",
+    "snekfetch": "^4.0.4"
+  }
+}
